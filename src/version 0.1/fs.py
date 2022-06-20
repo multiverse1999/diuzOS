@@ -18,28 +18,32 @@ def Disk(operation: str, disk: dict, args: dict):
     elif operation == "DRESET":
         disk = {"C": {}, "reg": {}}
 file_system = {"C": {}, "reg": {}}
+
 def uExpRun():
     global file_system
     print("Help: \n file create (partition name)/(file) (content) - create file")
     print(" file remove (Partition name)/(file name) - remove file \n partition create (partition name) - create partition")
-    print(f"Hello, {name}")
     while True:
-        action = input(">> ")
-
-        sa = action.split()
-        if sa[0] == "file":
-
-            if sa[1] == "create":
-                ss = sa[2].replace("/", " ")
-                ss = ss.split()
-                Disk("FCREATE", file_system, {"file": ss[1], "razdel": ss[0], "desc": sa[3]})
-                print(f"File {ss[1]} succesfully created! ")
-            elif sa[1] == "remove":
-                sa = sa[2].replace("/", " ")
-                sa = sa.split()
-                Disk("FREMOVE", file_system, {"file": sa[1], "razdel": sa[0]})
-                print(f"File {sa[1]} succesfully removed! ")
-        elif sa[0] == "partition":
-            if sa[1] == "create":
-                Disk("RCREATE", file_system, {"razdel": sa[2]})
-                print("Partition created!")
+        try:
+            action = input(">> ")
+            sa = action.split()
+            if sa[0] == "file":
+                if sa[1] == "create":
+                    ss = sa[2].replace("/", " ")
+                    ss = ss.split()
+                    Disk("FCREATE", file_system, {"file": ss[1], "razdel": ss[0], "desc": sa[3]})
+                    print(f"File {ss[1]} succesfully created! ")
+                elif sa[1] == "remove":
+                    sa = sa[2].replace("/", " ")
+                    sa = sa.split()
+                    Disk("FREMOVE", file_system, {"file": sa[1], "razdel": sa[0]})
+                    print(f"File {sa[1]} succesfully removed! ")
+            elif sa[0] == "partition":
+                if sa[1] == "create":
+                    Disk("RCREATE", file_system, {"razdel": sa[2]})
+                    print("Partition created!")
+            elif sa[0] == "back":
+               print("\n")
+               break
+        except:
+            pass
