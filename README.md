@@ -1,4 +1,4 @@
-# diuzOS alpha & 0.1 version
+# diuzOS alpha, 0.1 version & release 0.2 version
 diuzOS - new emulator OS writting in python.
 -------------------------------------------
 Write in doc the tutor
