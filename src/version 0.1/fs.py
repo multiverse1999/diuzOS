@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: GPL-3.0 
 '''*
-   * diuz/version 0.1/explorer.py
+   * diuz/version 0.1/fs.py
    *
-   * Copyright (C) 2022 Zotep 
+   * Copyright (C) 2022 multiverse49
    *
    * this file is file system
    *'''
