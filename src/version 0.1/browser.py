@@ -2,7 +2,7 @@
 '''*
    * diuz/version 0.1/kernel.py
    *
-   * Copyright (C) 2022 Zotep 
+   * Copyright (C) 2022 multiverse49
    *
    * this file is browser
    *'''
