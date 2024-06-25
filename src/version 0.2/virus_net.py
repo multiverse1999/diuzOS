@@ -4,7 +4,7 @@
    *
    * Copyright (C) 2022 multiverse49
    *
-   * This file is the virus
+   * this file is the virus
    *'''
 import net
 import time
