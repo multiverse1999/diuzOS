@@ -4,7 +4,7 @@
    *
    * Copyright (C) 2022 Zotep 
    *
-   * This file is boot
+   * this file is boot
    *'''
 import kernel
 import os.path
