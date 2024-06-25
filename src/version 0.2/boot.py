@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: GPL-3.0 
 '''*
-   * diuz/version 0.1/boot.py
+   * diuz/version 0.2/boot.py
    *
-   * Copyright (C) 2022 Zotep 
+   * Copyright (C) 2022 multiverse49
    *
-   * This file is the bootloader for the Diuz kernel
+   * this file is boot
    *'''
 import kernel
 import os.path
