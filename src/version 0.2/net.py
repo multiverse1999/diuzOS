@@ -1,3 +1,11 @@
+# SPDX-License-Identifier: GPL-3.0 
+'''*
+   * diuz/version 0.2/kernel.py
+   *
+   * Copyright (C) 2022 multiverse49
+   *
+   * this file is internet check
+   *'''
 import requests
 from requests.api import request
 
