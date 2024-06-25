@@ -4,7 +4,7 @@
    *
    * Copyright (C) 2022 Zotep 
    *
-   * This file is the file system for the Diuz kernel
+   * this file is file system
    *'''
 def Disk(operation: str, disk: dict, args: dict):
     if operation == "FCREATE":
