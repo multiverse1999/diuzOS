@@ -4,7 +4,7 @@
    *
    * Copyright (C) 2022 multiverse49
    *
-   * this file is console diuz kernel
+   * this file is kernel
    *'''
 import os
 import datetime
