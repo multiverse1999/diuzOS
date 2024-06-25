@@ -4,7 +4,7 @@
    *
    * Copyright (C) 2022 Zotep 
    *
-   * This file is the bootloader for the Diuz kernel
+   * This file is boot
    *'''
 import kernel
 import os.path
