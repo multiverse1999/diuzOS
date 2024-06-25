@@ -1,5 +1,5 @@
 # diuzOS
-![2024_06_25_dfdsfsdsfdsdfdssfdsdfs11b_Kleki](https://github.com/multiverse1999/diuzOS/assets/77222329/230dca33-7110-421b-86a2-4f95a446965a)
+![GOTOVO](https://github.com/multiverse1999/diuzOS/assets/77222329/b9e2d151-7299-4c72-a4c1-eb413fcfbf98)
 
 versions:
 1) (alpha): kernel
