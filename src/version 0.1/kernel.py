@@ -4,7 +4,7 @@
    *
    * Copyright (C) 2022 Zotep  & novem
    *
-   * This file is the console Diuz kernel
+   * this file is kernel
    *'''
 import os
 import datetime
