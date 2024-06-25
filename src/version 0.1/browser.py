@@ -4,7 +4,7 @@
    *
    * Copyright (C) 2022 Zotep 
    *
-   * This file is the browser Diuz kernel
+   * this file is browser
    *'''
 import webbrowser
 
