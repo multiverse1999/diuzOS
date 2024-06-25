@@ -1,5 +1,5 @@
 # diuzOS
-![GOTOVO](https://github.com/multiverse1999/diuzOS/assets/77222329/b9e2d151-7299-4c72-a4c1-eb413fcfbf98)
+![GOTOVO-Photoroom](https://github.com/multiverse1999/diuzOS/assets/77222329/77628753-ae0b-43f0-81b0-78ffae5be907)
 
 versions:
 1) (alpha): kernel
