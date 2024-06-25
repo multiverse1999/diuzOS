@@ -9,19 +9,19 @@ versions:
 tutorial:
 1. open diuz/src
 2. run boot.py
-------------
+
 You see next: 
 [0] Live - 
 [1] Install -
 [2] Continue - 
 [3] Exit - exit from system
-------------
+
 [?]: <write number in [?]>
 example:
 [?]: 0
 
 live>
-------------
+
 Installer:
 Your own name: <write your own name>
 Your own pass: <write your own password>
@@ -31,12 +31,12 @@ Your own name: misha
 Your own pass: 12345678
 Do you want to install an OS? [y/n]: y
 And wait for the system to boot.
-------------
+
 Continue:
 Repeat your own name: <write down your saved name>
 Repeat your own pass: <write down your saved password>
 And the system will open.
-------------
+
 commands:
 'help' - help
 'echo <line_text>' for print your own line
