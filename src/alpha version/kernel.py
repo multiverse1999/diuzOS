@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: GPL-3.0 
 '''*
-   * diuz/alpha version/boot.py
+   * diuz/alpha_version/kernel.py
    *
-   * Copyright (C) 2022 novem, HISEDOC, Zotep 
+   * Copyright (C) 2022 multiverse49 
    *
-   * This file is the big programm setup for the Diuz kernel
+   * this file is kernel
    *'''
 import cmd
 import os
