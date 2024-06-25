@@ -1,4 +1,4 @@
-# diuzOS alpha, 0.1 version & release 0.2 version
+# diuzOS
 
 versions:
 1) (alpha): kernel
