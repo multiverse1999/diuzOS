@@ -1,10 +1,10 @@
 # SPDX-License-Identifier: GPL-3.0 
 '''*
-   * diuz/version 0.1/kernel.py
+   * diuz/version 0.2/kernel.py
    *
-   * Copyright (C) 2022 Zotep 
+   * Copyright (C) 2022 multiverse49
    *
-   * This file is the console Diuz kernel
+   * This file is console diuz kernel
    *'''
 import os
 import datetime
