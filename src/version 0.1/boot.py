@@ -2,7 +2,7 @@
 '''*
    * diuz/version 0.1/boot.py
    *
-   * Copyright (C) 2022 multiverse49
+   * Copyright (C) 2022 multiverse1999
    *
    * this file is boot
    *'''
