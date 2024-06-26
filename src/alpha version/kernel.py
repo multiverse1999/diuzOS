@@ -2,7 +2,7 @@
 '''*
    * diuz/alpha_version/kernel.py
    *
-   * Copyright (C) 2022 multiverse49 
+   * Copyright (C) 2022 multiverse1999
    *
    * this file is kernel
    *'''
