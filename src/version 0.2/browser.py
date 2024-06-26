@@ -2,7 +2,7 @@
 '''*
    * diuz/version 0.2/browser.py
    *
-   * Copyright (C) 2022 multiverse49
+   * Copyright (C) 2022 multiverse1999
    *
    * this file is browser
    *'''
