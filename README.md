@@ -6,4 +6,4 @@ versions:
 2) (0.1): +[boot, file system, browser]
 3) (0.2): +[network connection check]
 ---
-the project is frozen or will not proceed
+the project is frozen or will not proceed or will probably be deleted
