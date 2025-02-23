@@ -11,3 +11,5 @@ versions:
 6) july 2024, version (0.2): +[fixed bugs of version (0.2a), removed the virus for network]
 ---
 the project is frozen or will not proceed or will probably be deleted
+
+pip install progress progress.bar webbrowser
