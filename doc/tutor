@@ -2,45 +2,18 @@ tutorial:
 0. first install python 3.10.0 then install the following libraries: progress, progress.bar, webbrowser, request, requests, requests.api
 1. open diuz/src/version 0.2
 2. run boot.py
-------------
-You see next: 
-[0] Live - without downloading os
-[1] Install - download os
-[2] Continue - works when downloaded os
-[3] Exit - exit from system
-------------
-[?]: <write number in [?]>
-example:
-[?]: 0
-
-live>
-------------
-Installer:
-Your own name: <write your own name>
-Your own pass: <write your own password>
-Do you want to install an OS? [y/n]: <write 'y' or 'n'>
-example:
-Your own name: john
-Your own pass: 12345678
-Do you want to install an OS? [y/n]: y
-And wait for the system to boot.
-------------
-Continue:
-Repeat your own name: <write down your saved name>
-Repeat your own pass: <write down your saved password>
-And the system will open.
-------------
 commands:
 'help' - help
-'echo <line_text>' for print your own line
-'exit' exit from system
-'date' show now date
-'time' show now time
-'clear' clear all terminal
-'uexp' open uni file system:
+'echo <line_text>' - for print your own line
+'exit' - exit from system
+'date' - show now date
+'time' - show now time
+'clear' - clear all terminal
+'uexp' - open uni file system:
     'file create (partition name)/(file) (content) - create file
-    'file remove (Partition name)/(file name) - remove file
+    'file remove (partition name)/(file name) - remove file
     'partition create (partition name) - create partition
 'browser' open browser:
-    'link <line_url>' open url in browser
-    'back' browser exit
+    'link <line_url>' - open url in browser
+    'back' - browser exit
+'net' - check network connection
