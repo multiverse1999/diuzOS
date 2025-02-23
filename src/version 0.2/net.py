@@ -19,7 +19,6 @@ def test(mstr):
             print(f'{"connected"}\n')
         else:
             print(f'{"not connected"}\n')
-    
- 
+     
 if __name__ == '__main__':
     print(test(mstr='http://www.ya.ru'))
