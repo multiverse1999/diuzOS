@@ -28,28 +28,28 @@ def install():
          file.write(text_to_bits(passu))
 
       bar = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-      binarys = IncrementalBar('''binarys''', max = len(bar))
+      binarys = IncrementalBar('''installing binaries''', max = len(bar))
       for item in bar:
          binarys.next()
          time.sleep(1)
       binarys.finish()
 
       bar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-      explorer = IncrementalBar('''explorer''', max = len(bar))
+      explorer = IncrementalBar('''installing explorer''', max = len(bar))
       for item in bar:
          explorer.next()
          time.sleep(2)
       explorer.finish()
 
       bar = [1, 2, 3, 4, 5, 6]
-      antivirus = IncrementalBar('''antivirus''', max = len(bar))
+      antivirus = IncrementalBar('''installing antivirus''', max = len(bar))
       for item in bar:
          antivirus.next()
          time.sleep(1.5)
       antivirus.finish()
 
       bar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13]
-      ubrowser = IncrementalBar('''browser''', max = len(bar))
+      ubrowser = IncrementalBar('''installing browser''', max = len(bar))
       for item in bar:
          ubrowser.next()
          time.sleep(0.3)
@@ -60,7 +60,7 @@ def install():
       menu()
 
 def menu():
-   print('''\nWelcome to boot menu for Diuz kernel version 0.1\n''')
+   print('''\nWelcome to boot menu for Diuz kernel version 0.2\n''')
    print('''Boot menu:''')
    print('''[0] Live''')
    print('''[1] Install''')
