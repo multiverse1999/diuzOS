@@ -2,8 +2,11 @@
 ![logo](https://github.com/multiverse1999/diuzOS/assets/77222329/77628753-ae0b-43f0-81b0-78ffae5be907)
 ---
 versions:
-1) (alpha): +[kernel]
-2) (0.1): +[boot, file system, browser]
-3) (0.2): +[network connection check]
+~~0) may-june 2022, version (alpha0): +[basic shell]~~
+~~1) june-july 2022, version (beta): +[basic kernel]~~
+2) june-july 2022, version (alpha): +[used version (beta) kernel and uniOS based]
+4) july 2022, version (0.1): +[boot, file system, browser]
+5) july 2022, version (0.2): +[network connection check]
+6) july 2024, version (0.2a): +[fixed bugs of version (0.2)]
 ---
 the project is frozen or will not proceed or will probably be deleted
