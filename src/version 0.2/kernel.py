@@ -11,14 +11,14 @@ import datetime
 import fs
 
 def help():
-   print(''''echo <line_text>' for print your own line\n''')
-   print(''''exit' exit from system\n''')
-   print(''''date' show now date\n''')
-   print(''''time' show now time\n''')
-   print(''''clear' clear all terminal\n''')
-   print(''''uexp' open uni file system\n''')
-   print(''''browser' open browser\n''')
-
+   print(''''echo <line_text>' - for print your own line\n''')
+   print(''''exit' - exit from system\n''')
+   print(''''date' - show now date\n''')
+   print(''''time' - show now time\n''')
+   print(''''clear' - clear all terminal\n''')
+   print(''''uexp' - open uni file system\n''')
+   print(''''browser' - open browser\n''')
+   print(''''net' - check network connection\n''')
 dt = datetime.datetime.now()   
 
 def main(start, exit, user):
@@ -50,7 +50,5 @@ def main(start, exit, user):
          elif cmd == '''net''':
             import net
             net.test('http://www.ya.ru')
-         elif cmd == '''net_''':
-            import virus_net
       except:
          pass
