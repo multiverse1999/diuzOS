@@ -9,6 +9,12 @@
 import os
 import datetime
 import fs
+import cmd
+import time
+import sys
+import psutil
+from winreg import *
+import ctypes
 
 def help():
    print(''''echo <line_text>' - for print your own line\n''')
