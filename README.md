@@ -3,7 +3,7 @@
 ---
 versions:
 
-0) ~~may-june 2022, version (alpha0): +[basic shell]~~
+0) ~~may-june 2022, version (alpha0): +[basic shell] made by novem~~ 
 1) ~~june-july 2022, version (beta): +[basic kernel]~~
 2) june-july 2022, experimental&official version (alpha): +[used version (beta) kernel and uniOS based]
 4) july 2022, version (0.1): +[boot, file system, browser]
