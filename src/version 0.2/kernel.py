@@ -25,7 +25,7 @@ def main(start, exit, user):
    print('''\n''')
    while start:
       try:
-         cmd = input(f'''{user}> ''')
+         cmd = input(f'''[{name}]@[{os.environ['COMPUTERNAME']}]:~$ ''')
          echo = cmd.split()
          if cmd == '''exit''':
             start = exit
