@@ -1,8 +1,6 @@
 # diuzOS(2022-2024)
 ![logo](https://github.com/multiverse1999/diuzOS/assets/77222329/77628753-ae0b-43f0-81b0-78ffae5be907)
 ---
-*first install python 3.10.0 then install the following libraries: progress, progress.bar, webbrowser*
----
 versions:
 
 0) ~~may-june 2022, version (alpha0): +[basic shell] made by novem~~ 
