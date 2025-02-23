@@ -22,13 +22,13 @@ def install():
    text_to_bits(passu)
 
    if ynn == '''y''':
-      with open('''user\\name.nu''', '''w''') as file:
+      with open('''name.nu''', '''w''') as file:
          file.write(text_to_bits(nameu))
-      with open('''user\\pass.pu''', '''w''') as file:
+      with open('''pass.pu''', '''w''') as file:
          file.write(text_to_bits(passu))
 
       bar = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-      binarys = IncrementalBar('''binarys''', max = len(bar))
+      binarys = IncrementalBar('''binaries''', max = len(bar))
       for item in bar:
          binarys.next()
          time.sleep(1)
@@ -71,19 +71,19 @@ def menu():
    if act == '''0''':
       kernel.main(1, 0, '''live''')
    elif act == '''1''':
-      if os.path.isfile('''user\\pass.pu''') == False or os.path.isfile('''user\\name.nu''') == False:
+      if os.path.isfile(''pass.pu''') == False or os.path.isfile('''name.nu''') == False:
          install()
       else:
          print('''\nYou have already installed the OS''')
          menu()
    elif act == '''2''':
-      if os.path.isfile('''user\\pass.pu''') == False or os.path.isfile('''user\\name.nu''') == False:
+      if os.path.isfile('''pass.pu''') == False or os.path.isfile('''name.nu''') == False:
          print('''\nYou cannot continue because you have not installed the OS''')
          install()
       else:
-         f = open('''user\\name.nu''')
+         f = open('''name.nu''')
          fd = f.read()
-         f1 = open('''user\\pass.pu''')
+         f1 = open('''pass.pu''')
          fd1 = f1.read()
 
          renameu = input('''\nRepeat your own name: ''')
