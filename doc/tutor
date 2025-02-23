@@ -1,5 +1,5 @@
 tutorial:
-0. first install python 3.10.0 then install the following libraries: progress, progress.bar, webbrowser
+0. first install python 3.10.0 then install the following libraries: progress, progress.bar, webbrowser, request, requests, requests.api
 1. open diuz/src/version 0.2
 2. run boot.py
 ------------
