@@ -1,11 +1,12 @@
 tutorial:
-1. open diuz/src
+0. first install python 3.10.0 then install the following libraries: progress, progress.bar, webbrowser
+1. open diuz/src/version 0.2
 2. run boot.py
 ------------
 You see next: 
-[0] Live - 
-[1] Install -
-[2] Continue - 
+[0] Live - without downloading os
+[1] Install - download os
+[2] Continue - works when downloaded os
 [3] Exit - exit from system
 ------------
 [?]: <write number in [?]>
