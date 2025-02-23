@@ -19,7 +19,7 @@ Your own name: <write your own name>
 Your own pass: <write your own password>
 Do you want to install an OS? [y/n]: <write 'y' or 'n'>
 example:
-Your own name: misha
+Your own name: john
 Your own pass: 12345678
 Do you want to install an OS? [y/n]: y
 And wait for the system to boot.
@@ -42,3 +42,4 @@ commands:
     'partition create (partition name) - create partition
 'browser' open browser:
     'link <line_url>' open url in browser
+    'back' browser exit
