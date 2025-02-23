@@ -22,7 +22,7 @@ file_system = {"C": {}, "reg": {}}
 def uExpRun():
     global file_system
     print("Help: \n file create (partition name)/(file) (content) - create file")
-    print("file remove (Partition name)/(file name) - remove file \n partition create (partition name) - create partition")
+    print("file remove (partition name)/(file name) - remove file \n partition create (partition name) - create partition")
     while True:
         try:
             action = input(">> ")
