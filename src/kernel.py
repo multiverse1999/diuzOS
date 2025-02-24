@@ -19,13 +19,13 @@ dt = datetime.datetime.now()
 
 def help():
    print("'echo <line_text>' - for print your own line\n")
-   print("'qt' - exit from system\n")
-   print("'dt' - show now date\n")
+   print("'exit' - exit from system\n")
+   print("'date' - show now date\n")
    print("'time' - show now time\n")
-   print("'cln' - clear all terminal\n")
+   print("'clean' - clear all terminal\n")
    print("'dfs' - open uni file system\n")
    print("'curl' - open links\n")
-   print("'chnet' - check network connection\n") 
+   print("'ping' - check network connection\n") 
 
 def main(start, exit, user):
    print("\n")
