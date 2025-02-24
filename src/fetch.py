@@ -3,9 +3,9 @@ import psutil
 from winreg import *
 import ctypes
 
-aReg = ConnectRegistry(None, HKEY_LOCAL_MACHINE)
-aKey = OpenKey(aReg, r"HARDWARE\DESCRIPTION\System\CentralProcessor\0")
-name = QueryValueEx(aKey, 'ProcessorNameString')[0]
+reg = ConnectRegistry(None, HKEY_LOCAL_MACHINE)
+key = OpenKey(reg, r"HARDWARE\DESCRIPTION\System\CentralProcessor\0")
+name = QueryValueEx(key, 'ProcessorNameString')[0]
 
 print('''                                      
 `7MM"""Yb. `7MMF'`7MMF'   `7MF'MMM"""AMV 
