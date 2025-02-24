@@ -17,3 +17,4 @@ commands:
     'link <line_url>' - open url in browser
     'back' - browser exit
 'net' - check network connection
+'dfetch' - diuz fetch, view os information
