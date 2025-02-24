@@ -1,8 +1,8 @@
-# SPDX-License-Identifier: GPL-3.0 
+# SPDX-License-Identifier: BSD 3-Clause License
 '''*
    * diuz/version 0.2/boot.py
    *
-   * Copyright (C) 2022 multiverse1999
+   * Copyright (C) 2022, multiverse1999
    *
    * this file is boot
    *'''
