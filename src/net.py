@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0 
+# SPDX-License-Identifier: BSD 3-Clause License
 '''*
    * diuz/version 0.2/net.py
    *
