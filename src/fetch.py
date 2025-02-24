@@ -16,7 +16,7 @@ def dfetch():
   key = OpenKey(reg, r"HARDWARE\DESCRIPTION\System\CentralProcessor\0")
   name = QueryValueEx(key, "ProcessorNameString")[0]
   
-  print('''`7MM"""Yb. `7MMF'`7MMF'   `7MF'MMM"""AMV 
+  print('''\t   `7MM"""Yb. `7MMF'`7MMF'   `7MF'MMM"""AMV 
              MM    `Yb. MM    MM       M  M'   AMV  
              MM     `Mb MM    MM       M  '   AMV   
              MM      MM MM    MM       M     AMV    
