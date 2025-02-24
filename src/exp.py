@@ -21,10 +21,6 @@ _fs = {'''c''': {}, '''reg''': {}}
 
 def dexp():
     global _fs
-    print('''help:\n''')
-    print('''file mk (directory name)/(file) (content) - create file\n''')
-    print('''file rm (directory name)/(file name) - remove file\n''')
-    print('''dir mk (directory name) - create directory''')
     while True:
         try:
             action = input('''dfs> ''')
