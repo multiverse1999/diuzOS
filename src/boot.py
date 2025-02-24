@@ -15,9 +15,9 @@ def text_to_bits(text, encoding = '''utf-8''', errors = '''surrogatepass'''):
     bits = bin(int.from_bytes(text.encode(encoding, errors), '''big'''))[2:]
     return bits.zfill(8 * ((len(bits) + 7) // 8))
 def install():
-   nameu = input('''\nYour own name: ''')
-   passu = input('''Your own pass: ''')
-   ynn = input('''Do you want to install an OS? [y/n]: ''')
+   nameu = input('''\nyour own name: ''')
+   passu = input('''your own pass: ''')
+   ynn = input('''do you want to install a diuz os? [y/n]: ''')
    text_to_bits(nameu)
    text_to_bits(passu)
 
@@ -60,25 +60,25 @@ def install():
       menu()
 
 def menu():
-   print('''\nWelcome to boot menu for Diuz kernel version 0.2\n''')
-   print('''Boot menu:''')
-   print('''[0] Live''')
-   print('''[1] Install''')
-   print('''[2] Continue''')
-   print('''[3] Exit''')
+   print('''\nwelcome to boot menu for diuz os version 0.2\n''')
+   print('''boot menu:''')
+   print('''[0] live''')
+   print('''[1] install''')
+   print('''[2] continue''')
+   print('''[3] exit''')
 
-   act = input('''[?]: ''')
+   act = input('''[]: ''')
    if act == '''0''':
       kernel.main(1, 0, '''live''')
    elif act == '''1''':
       if os.path.isfile('''pass.pu''') == False or os.path.isfile('''name.nu''') == False:
          install()
       else:
-         print('''\nYou have already installed the OS''')
+         print('''\nyou have already installed the diuz os''')
          menu()
    elif act == '''2''':
       if os.path.isfile('''pass.pu''') == False or os.path.isfile('''name.nu''') == False:
-         print('''\nYou cannot continue because you have not installed the OS''')
+         print('''\nyou cannot continue because you have not installed the diuz os''')
          install()
       else:
          f = open('''name.nu''')
@@ -86,13 +86,13 @@ def menu():
          f1 = open('''pass.pu''')
          fd1 = f1.read()
 
-         renameu = input('''\nRepeat your own name: ''')
-         repassu = input('''Repeat your own pass: ''')
+         renameu = input('''\nrepeat your own name: ''')
+         repassu = input('''repeat your own pass: ''')
          text_to_bits(renameu)
          text_to_bits(repassu)
          while fd != text_to_bits(renameu) or fd1 != text_to_bits(repassu):
-            renameu = input('''\nRepeat your own name: ''')
-            repassu = input('''Repeat your own pass: ''')
+            renameu = input('''\nrepeat your own name: ''')
+            repassu = input('''repeat your own pass: ''')
          kernel.main(1, 0, renameu)
    else:
       exit()
