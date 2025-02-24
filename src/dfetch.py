@@ -15,11 +15,13 @@ print('''
   MM     ,MP MM    MM       M    AMV   , 
   MM    ,dP' MM    YM.     ,M   AMV   ,M 
 .JMMmmmdP' .JMML.   `bmmmmd"'  AMVmmmmMM''')
+
 print('\t\tMain:')
 print('\t\t\tOS:\t\tDiuz 0.2 version')
 print('\t\t\tkernel:\t\tDiuz 0.2 version')
 print('\t\t\tGraphic:\t\tCLI')
 print('\t\t\tLanguage:\t\tEnglish')
+
 print('\t\tOther:')
 user32 = ctypes.windll.user32
 screensize = user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
