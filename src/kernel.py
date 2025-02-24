@@ -28,35 +28,35 @@ def help():
    print("'chnet' - check network connection\n") 
 
 def main(start, exit, user):
-   print('''\n''')
+   print("\n")
    while start:
       try:
-         cmd = input(f'''[{user}]@[{os.environ['COMPUTERNAME']}]:~$ ''')
+         cmd = input(f"[{user}]@[{os.environ['COMPUTERNAME']}]:~$ ")
          echo = cmd.split()
-         if cmd == "qt":
+         if cmd == "exit":
             start = exit
          elif cmd == "help":
             help()
-         elif echo[0] == '''echo''':
-            line = ''''''
+         elif echo[0] == "echo":
+            line = ""
             for i in range(1, len(echo)):
                line += echo[i]
-               line += ''' '''
-            print(f'''{line}\n''')
-         elif cmd == "cln":
-            os.system('cls')
-         elif cmd == "dt":
-            print(f'''{dt.year}-{dt.month}-{dt.day}\n''')
+               line += " "
+            print(f"{line}\n")
+         elif cmd == "clean":
+            os.system("cls")
+         elif cmd == "date":
+            print(f"{dt.year}-{dt.month}-{dt.day}")
          elif cmd == "time":
-            print(f'''{dt.hour}-{dt.minute}-{dt.second}\n''')
-         elif cmd == '''dfs''':
-            fs.dfs()
-         elif cmd == '''browser''':
+            print(f"{dt.hour}-{dt.minute}-{dt.second}")
+         elif cmd == "dexp":
+            exp.dexp()
+         elif cmd == "curl":
             import browser
-         elif cmd == '''net''':
+         elif cmd == "ping":
             import net
-            net.test('http://www.ya.ru')
-         elif cmd == '''dfetch''':
-            import dfetch
+            net.test("http://www.ya.ru")
+         elif cmd == "dfetch":
+            import fetch
       except:
          pass
