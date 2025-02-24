@@ -59,5 +59,8 @@ def main(start, exit, user):
          elif cmd == "dfetch":
             import fetch
             fetch.dfetch()
+         elif cmd == "dpkg":
+           import psh
+           psh.open_multiple_powershell_windows()
       except:
          pass
