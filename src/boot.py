@@ -61,7 +61,8 @@ def install():
       menu()
 
 def menu():
-   print("\nwelcome to boot menu for diuz os version 0.2\n")
+   import fetch
+   print("welcome to boot menu for diuz os version 0.2\n")
    print("boot menu:")
    print("[0] live")
    print("[1] install")
