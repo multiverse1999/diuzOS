@@ -29,7 +29,7 @@ def install():
          file.write(text_to_bits(passu))
 
       bar = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-      binarys = IncrementalBar('''installing binaries''', max = len(bar))
+      binarys = IncrementalBar('''installing libpy''', max = len(bar))
       for item in bar:
          binarys.next()
          time.sleep(1)
@@ -43,7 +43,7 @@ def install():
       explorer.finish()
 
       bar = [1, 2, 3, 4, 5, 6]
-      antivirus = IncrementalBar('''installing antivirus''', max = len(bar))
+      antivirus = IncrementalBar('''installing commands''', max = len(bar))
       for item in bar:
          antivirus.next()
          time.sleep(1.5)
