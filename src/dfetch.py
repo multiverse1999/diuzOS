@@ -14,7 +14,8 @@ print('''
   MM      MM MM    MM       M     AMV    
   MM     ,MP MM    MM       M    AMV   , 
   MM    ,dP' MM    YM.     ,M   AMV   ,M 
-.JMMmmmdP' .JMML.   `bmmmmd"'  AMVmmmmMM''')
+.JMMmmmdP' .JMML.   `bmmmmd"'  AMVmmmmMM
+''')
 
 print('\t\tMain:')
 print('\t\t\tOS:\t\tDiuz 0.2 version')
