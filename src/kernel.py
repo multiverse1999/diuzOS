@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0 
 '''*
-   * diuz/version 0.2/kernel.py
+   * diuz/version 0.6/kernel.py
    *
    * Copyright (C) 2022 multiverse1999
    *
