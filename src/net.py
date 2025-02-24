@@ -15,9 +15,9 @@ print("your internet connection:")
 def test(mstr):
         res = requests.get(mstr)
         if res.status_code == 200:        
-            print(f"{'connected!!!'}")
+            print(f"connected!!!")
         else:
-            print(f"{'not connected...'}")
+            print(f"not connected...")
      
 if __name__ == "__main__":
     print(test(mstr = "http://www.ya.ru"))
