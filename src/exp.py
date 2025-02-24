@@ -19,7 +19,7 @@ def disk(operation: str, _disk: dict, args: dict):
         _disk = {'''c''': {}, '''reg''': {}}
 _fs = {'''c''': {}, '''reg''': {}}
 
-def dfs():
+def dexp():
     global _fs
     print('''help:\n''')
     print('''file mk (directory name)/(file) (content) - create file\n''')
