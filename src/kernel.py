@@ -18,14 +18,14 @@ import ctypes
 dt = datetime.datetime.now()  
 
 def help():
-   print(''''echo <line_text>' - for print your own line\n''')
-   print(''''exit' - exit from system\n''')
-   print(''''date' - show now date\n''')
-   print(''''time' - show now time\n''')
-   print(''''clear' - clear all terminal\n''')
-   print(''''uexp' - open uni file system\n''')
-   print(''''browser' - open browser\n''')
-   print(''''net' - check network connection\n''') 
+   print("'echo <line_text>' - for print your own line\n")
+   print("'qt' - exit from system\n")
+   print("'dt' - show now date\n")
+   print("'time' - show now time\n")
+   print("'cln' - clear all terminal\n")
+   print("'dfs' - open uni file system\n")
+   print("'curl' - open links\n")
+   print("'chnet' - check network connection\n") 
 
 def main(start, exit, user):
    print('''\n''')
@@ -33,9 +33,9 @@ def main(start, exit, user):
       try:
          cmd = input(f'''[{user}]@[{os.environ['COMPUTERNAME']}]:~$ ''')
          echo = cmd.split()
-         if cmd == '''exit''':
+         if cmd == "qt":
             start = exit
-         elif cmd == '''help''':
+         elif cmd == "help":
             help()
          elif echo[0] == '''echo''':
             line = ''''''
@@ -43,14 +43,14 @@ def main(start, exit, user):
                line += echo[i]
                line += ''' '''
             print(f'''{line}\n''')
-         elif cmd == '''clear''':
+         elif cmd == "cln":
             os.system('cls')
-         elif cmd == '''date''':
+         elif cmd == "dt":
             print(f'''{dt.year}-{dt.month}-{dt.day}\n''')
-         elif cmd == '''time''':
+         elif cmd == "time":
             print(f'''{dt.hour}-{dt.minute}-{dt.second}\n''')
-         elif cmd == '''uexp''':
-            fs.uExpRun()
+         elif cmd == '''dfs''':
+            fs.dfs()
          elif cmd == '''browser''':
             import browser
          elif cmd == '''net''':
