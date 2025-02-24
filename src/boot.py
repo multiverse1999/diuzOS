@@ -17,7 +17,7 @@ def text_to_bits(text, encoding = "utf-8", errors = "surrogatepass"):
   
 def install():
    nameu = input("\nyour own name: ")
-   passu = input("your own pass: ")
+   passu = input("your own password: ")
    ynn = input("do you want to install a diuz os? [y/n]: ")
    text_to_bits(nameu)
    text_to_bits(passu)
@@ -62,7 +62,7 @@ def install():
 
 def menu():
    import fetch
-   print("welcome to boot menu for diuz os version 0.2\n")
+   print("\nwelcome to boot menu for diuz os version 0.2\n")
    print("boot menu:")
    print("[0] live")
    print("[1] install")
@@ -89,12 +89,12 @@ def menu():
          fd1 = f1.read()
 
          renameu = input("\nrepeat your own name: ")
-         repassu = input("repeat your own pass: ")
+         repassu = input("repeat your own password: ")
          text_to_bits(renameu)
          text_to_bits(repassu)
          while fd != text_to_bits(renameu) or fd1 != text_to_bits(repassu):
             renameu = input("\nrepeat your own name: ")
-            repassu = input("repeat your own pass: ")
+            repassu = input("repeat your own password: ")
          kernel.main(1, 0, renameu)
    else:
       exit()
