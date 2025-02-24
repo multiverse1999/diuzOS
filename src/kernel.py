@@ -12,13 +12,8 @@ import fs
 import cmd
 import time
 import sys
-import psutil
 from winreg import *
 import ctypes
-
-aReg = ConnectRegistry(None, HKEY_LOCAL_MACHINE)
-aKey = OpenKey(aReg, r"HARDWARE\DESCRIPTION\System\CentralProcessor\0")
-name = QueryValueEx(aKey, 'ProcessorNameString')[0]
 
 def help():
    print(''''echo <line_text>' - for print your own line\n''')
@@ -61,24 +56,6 @@ def main(start, exit, user):
             import net
             net.test('http://www.ya.ru')
          elif cmd == '''dfetch''':
-            print('\t\tMain:')
-            print('\t\t\tOS:\t\tDiuz alpha version')
-            print('\t\t\tkernel:\t\tDiuz alpha version')
-            print('\t\t\tGraphic:\t\tNone')
-            print('\t\t\tLanguage:\t\tEnglish')
-            print('\t\t\tPackages:\t\t0')
-            print('\t\t\tDrivers:\t\t0')
-            print('\t\tOther:')
-            user32 = ctypes.windll.user32
-            screensize = user32.GetSystemMetrics(0), user32.GetSystemMetrics(1)
-            print(f'\t\t\tResolution:\t\t{screensize}')
-            print(f'\t\t\tCPU name:\t\t{name}')
-            print(f'\t\t\tCPU consumption(GHz):\t\t{psutil.cpu_percent()}')
-            psutil.virtual_memory()
-            dict(psutil.virtual_memory()._asdict())
-            print(f'\t\t\tRAM consumption(%):\t\t{psutil.virtual_memory().percent}')
-            print(f'\t\t\tCPU consumption(%):\t\t{psutil.virtual_memory().available * 100 / psutil.virtual_memory().total}')
-            print('\t\t\tTerminal:\t\tTC (Terminal version: DEV1)')
-            print(f"\t\t\tHostname PC:\t\t{os.environ['COMPUTERNAME']}")
+            import dfetch
       except:
          pass
