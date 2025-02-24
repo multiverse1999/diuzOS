@@ -58,5 +58,6 @@ def main(start, exit, user):
             net.test("http://www.ya.ru")
          elif cmd == "dfetch":
             import fetch
+            fetch.dfetch()
       except:
          pass
