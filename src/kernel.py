@@ -18,14 +18,14 @@ import ctypes
 dt = datetime.datetime.now()  
 
 def help():
-   print("'echo <line_text>' - for print your own line\n")
-   print("'exit' - exit from system\n")
-   print("'date' - show now date\n")
-   print("'time' - show now time\n")
-   print("'clean' - clear all terminal\n")
-   print("'dfs' - open uni file system\n")
-   print("'curl' - open links\n")
-   print("'ping' - check network connection\n") 
+   print("'echo <line_text>' - for print your own line")
+   print("'exit' - exit from system")
+   print("'date' - show now date")
+   print("'time' - show now time")
+   print("'clean' - clear all terminal")
+   print("'dexp' - open uni file system")
+   print("'curl' - open links")
+   print("'ping' - check network connection") 
 
 def main(start, exit, user):
    print("\n")
@@ -42,7 +42,7 @@ def main(start, exit, user):
             for i in range(1, len(echo)):
                line += echo[i]
                line += " "
-            print(f"{line}\n")
+            print(f"{line}")
          elif cmd == "clean":
             os.system("cls")
          elif cmd == "date":
