@@ -1,3 +1,11 @@
+# SPDX-License-Identifier: BSD 3-Clause License
+'''*
+   * diuz/version 0.2/psh.py
+   *
+   * Copyright (C) 2025, multiverse1999
+   *
+   * this file is powershell for package
+   *'''
 import subprocess
 
 def open_multiple_powershell_windows():
