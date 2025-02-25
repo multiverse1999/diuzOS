@@ -52,7 +52,7 @@ def main(start, exit, user):
          elif cmd == "dexp":
             exp.dexp()
          elif cmd == "curl":
-            import browser
+            import curl
          elif cmd == "ping":
             import net
             net.test("http://www.ya.ru")
