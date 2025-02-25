@@ -7,3 +7,4 @@ versions:
 3) ~~july 2022, version (0.2)~~
 4) ~~2024, version (0.5)~~
 5) february 2025, version (0.6)
+6) soon version (1.0)
