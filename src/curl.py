@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: BSD 3-Clause License
 '''*
-   * diuz/version 0.2/browser.py
+   * diuz/version 0.2/curl.py
    *
    * Copyright (C) 2022, multiverse1999
    *
