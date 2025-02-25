@@ -25,7 +25,9 @@ def help():
    print("'clean' - clear all terminal")
    print("'dexp' - open uni file system")
    print("'curl' - open links")
-   print("'ping' - check network connection") 
+   print("'ping' - check network connection")
+   print("'dfetch' - fetch")
+   print("'dpkg' - package manager")
 
 def main(start, exit, user):
    print("\n")
