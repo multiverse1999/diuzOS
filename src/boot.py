@@ -77,6 +77,7 @@ def menu():
    elif act == "1":
       if os.path.isfile("pass.pu") == False or os.path.isfile("name.nu") == False:
          install()
+         kernel.help()
       else:
          print("\nyou have already installed the diuz os")
          menu()
