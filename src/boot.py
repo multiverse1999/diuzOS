@@ -72,12 +72,10 @@ def menu():
 
    act = input("[]: ")
    if act == "0":
-      kernel.help()
       kernel.main(1, 0, "live")
    elif act == "1":
       if os.path.isfile("pass.pu") == False or os.path.isfile("name.nu") == False:
          install()
-         kernel.help()
       else:
          print("\nyou have already installed the diuz os")
          menu()
@@ -85,7 +83,6 @@ def menu():
       if os.path.isfile("pass.pu") == False or os.path.isfile("name.nu") == False:
          print("\nyou cannot continue because you have not installed the diuz os")
          install()
-         kernel.help()
       else:
          f = open("name.nu")
          fd = f.read()
@@ -99,7 +96,6 @@ def menu():
          while fd != text_to_bits(renameu) or fd1 != text_to_bits(repassu):
             renameu = input("\nrepeat your own name: ")
             repassu = input("repeat your own password: ")
-         kernel.help()
          kernel.main(1, 0, renameu)
    else:
       exit()
