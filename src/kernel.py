@@ -30,7 +30,7 @@ def help():
    print("'dpkg' - package manager")
 
 def main(start, exit, user):
-   print("\n")
+   print("\nenter 'help' to view commands\n")
    while start:
       try:
          cmd = input(f"[{user}]@[{os.environ['COMPUTERNAME']}]:~$ ")
