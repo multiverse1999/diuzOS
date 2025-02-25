@@ -1,10 +1,10 @@
-# SPDX-License-Identifier: GPL-3.0 
+# SPDX-License-Identifier: BSD 3-Clause License
 '''*
-   * diuz/version 0.2/fs.py
+   * diuz/version 0.2/exp.py
    *
-   * Copyright (C) 2022 multiverse1999
+   * Copyright (C) 2022, multiverse1999
    *
-   * this file is file system
+   * this file is explorer
    *'''
 def disk(operation: str, _disk: dict, args: dict):
     if operation == '''FCREATE''':
