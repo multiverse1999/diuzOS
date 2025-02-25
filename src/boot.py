@@ -85,6 +85,7 @@ def menu():
       if os.path.isfile("pass.pu") == False or os.path.isfile("name.nu") == False:
          print("\nyou cannot continue because you have not installed the diuz os")
          install()
+         kernel.help()
       else:
          f = open("name.nu")
          fd = f.read()
