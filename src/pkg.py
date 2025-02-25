@@ -2,7 +2,7 @@
 '''*
    * diuz/version 0.2/pkg.py
    *
-   * Copyright (C) 2022 multiverse1999
+   * Copyright (C) 2025, multiverse1999
    *
    * this file is package manager
    *'''
