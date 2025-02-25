@@ -72,6 +72,7 @@ def menu():
 
    act = input("[]: ")
    if act == "0":
+      kernel.help()
       kernel.main(1, 0, "live")
    elif act == "1":
       if os.path.isfile("pass.pu") == False or os.path.isfile("name.nu") == False:
@@ -88,7 +89,7 @@ def menu():
          fd = f.read()
          f1 = open("pass.pu")
          fd1 = f1.read()
-
+        
          renameu = input("\nrepeat your own name: ")
          repassu = input("repeat your own password: ")
          text_to_bits(renameu)
@@ -96,6 +97,7 @@ def menu():
          while fd != text_to_bits(renameu) or fd1 != text_to_bits(repassu):
             renameu = input("\nrepeat your own name: ")
             repassu = input("repeat your own password: ")
+         kernel.help()
          kernel.main(1, 0, renameu)
    else:
       exit()
