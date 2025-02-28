@@ -28,6 +28,7 @@ def help():
    print("'ping' - check network connection")
    print("'dfetch' - fetch")
    print("'dpkg' - package manager")
+   #print("\t'pkg.py install/uninstall/list'")
 
 def main(start, exit, user):
    print("\nenter 'help' to view commands\n")
